@@ -46,7 +46,7 @@ export const fetchAndParseUsers = async (): Promise<Map<string, string>> => {
 
 // Fetches data for a specific user given a username and password.
 export const fetchUserData = async (username: string, password: string): Promise<UserData> => {
-  const apiUrl = `https://eklas-internet.eklasjs.workers.dev/?username=${username}&password=${password}`;
+  const apiUrl = `https://api-internet-x035.onrender.com/?username=${username}&password=${password}`;
 
   try {
     const response = await fetch(apiUrl, {
