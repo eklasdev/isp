@@ -32,7 +32,7 @@ const parseUsersFile = (text: string): Map<string, string> => {
 // Fetches the users.txt file and returns the parsed credentials map.
 export const fetchAndParseUsers = async (): Promise<Map<string, string>> => {
     try {
-        const response = await fetch('../users.txt');
+        const response = await fetch('https://gist.githubusercontent.com/eklasdev/bf35060d8079b6c6c5a7d4c5517507d8/raw/796f479e65b2a6f27104f73d38629275e07b7337/users.txt');
         if (!response.ok) {
             throw new Error(`Failed to fetch users.txt: ${response.statusText}`);
         }
