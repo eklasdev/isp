@@ -1,0 +1,5 @@
+{
+  "name": "ISP Usage Dashboard",
+  "description": "A modern, visually appealing dashboard for users to monitor their internet package, payment history, and detailed data usage statistics with insightful charts and metrics.",
+  "requestFramePermissions": []
+}
